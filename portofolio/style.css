@@ -1,0 +1,53 @@
+p {
+    color: rgb(184, 183, 183);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    background-color: rgb(27, 27, 195) ;
+}
+a {
+    color: rgb(184, 183, 183);
+}
+.Welkom {
+    color: aqua;
+    font-size: 300%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    color: rgb(184, 183, 183);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                 10px 20px 5px rgba(0,0,0,0.05),
+                 -10px 20px 5px rgba(0,0,0,0.05);
+}
+.projectentitel {
+        display: flex;
+        justify-content: center;
+}
+.items{
+        display: flex;
+        justify-content: space-between;
+        gap: 35px;
+        flex-wrap: wrap;
+}
+.a{
+    background-color: darkcyan;
+    padding: 15px 20px;
+    text-align: center;
+   display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    color: black;
+    text-decoration: none;
+    min-width: 250px;
+    box-shadow: rgba(72, 72, 72, 0.2) 0px 8px 24px;
+    transition: 0.3s ease;
+    transform: scale(1);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.a:hover{
+    color: black;
+    background-color: rgb(184, 183, 183);
+    box-shadow: rgba(72, 72, 72, 0.35) 0px 8px 24px;
+    transform: scale(1.02);
+}

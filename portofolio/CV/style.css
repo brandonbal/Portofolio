@@ -1,0 +1,43 @@
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+img {
+    height: 240px;
+
+}
+.kleur {
+    color: rgb(47, 47, 47);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.kleur2 {
+    color: rgb(232, 232, 232);
+}
+body {
+    background-color: white ;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(27, 27, 195);
+    margin-bottom: ;
+}
+.gegevens {
+    display: flex;
+    flex-direction: column;
+    margin-left: 125px;
+}
+.img {
+    margin-bottom: -4px;
+}
+.navbar{
+    background-color: darkcyan;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a {
+    color: rgb(184, 183, 183);
+}
