@@ -1,53 +1,93 @@
-p {
-    color: rgb(184, 183, 183);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 body {
-    background-color: rgb(27, 27, 195) ;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e2f;
+    color: #d6d6d6;
+    line-height: 1.6;
 }
-a {
-    color: rgb(184, 183, 183);
-}
-.Welkom {
-    color: aqua;
-    font-size: 300%;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-h1 {
-    color: rgb(184, 183, 183);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
-                 10px 20px 5px rgba(0,0,0,0.05),
-                 -10px 20px 5px rgba(0,0,0,0.05);
-}
-.projectentitel {
-        display: flex;
-        justify-content: center;
-}
-.items{
-        display: flex;
-        justify-content: space-between;
-        gap: 35px;
-        flex-wrap: wrap;
-}
-.a{
-    background-color: darkcyan;
-    padding: 15px 20px;
+
+header {
     text-align: center;
-   display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    color: black;
-    text-decoration: none;
-    min-width: 250px;
-    box-shadow: rgba(72, 72, 72, 0.2) 0px 8px 24px;
-    transition: 0.3s ease;
-    transform: scale(1);
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 2rem 1rem;
+    background: linear-gradient(to bottom, #2b2b47, #1e1e2f);
 }
-.a:hover{
-    color: black;
-    background-color: rgb(184, 183, 183);
-    box-shadow: rgba(72, 72, 72, 0.35) 0px 8px 24px;
-    transform: scale(1.02);
+
+.welcome-title {
+    font-size: 3rem;
+    color: #00e0ff;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.intro-text, .experience-text {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #c7c7c7;
+}
+
+.projects {
+    padding: 2rem 1rem;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #00e0ff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-item {
+    background-color: #2d2d3d;
+    padding: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: #d6d6d6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 250px;
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    background-color: #00e0ff;
+    color: #1e1e2f;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.links li {
+    margin: 0.5rem 0;
+}
+
+.links a {
+    text-decoration: none;
+    color: #00e0ff;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #1e1e2f;
+    color: #a1a1a1;
+    font-size: 0.9rem;
 }
