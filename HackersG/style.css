@@ -7,19 +7,14 @@ body {
     line-height: 1.6;
 }
 
-.navbar {
-    background-color: #2b2b47;
-    text-align: center;
-}
-
-.navbar a {
+a {
     text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to bottom, #2b2b47, #1e1e2f);
     color: #00e0ff;
-    font-weight: bold;
-}
-
-.navbar a:hover {
-    color: #ffffff;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .content {

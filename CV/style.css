@@ -32,12 +32,11 @@ body {
 .img {
     margin-bottom: -4px;
 }
-.navbar{
-    background-color: darkcyan;
+a{
+    text-decoration: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-a {
-    color: rgb(184, 183, 183);
+    color: #1e1e2f;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
