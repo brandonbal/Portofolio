@@ -1,35 +1,85 @@
-.navbar{
-    background-color: darkcyan;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e2f;
+    color: #d6d6d6;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: linear-gradient(to bottom, #2b2b47, #1e1e2f);
+    color: #00e0ff;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
-.content{
+
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: linear-gradient(to bottom, #2b2b47, #1e1e2f);
+}
+
+.welcome-title {
+    font-size: 3rem;
+    color: #00e0ff;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.intro-text {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #c7c7c7;
+}
+
+.content {
+    padding: 2rem 1rem;
+}
+
+.news-grid {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
-    background-color: darkcyan;
 }
-.news:first-child{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
+
+.news {
+    background-color: #2d2d3d;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
 }
-.news{
-    width: 30%;
-    display: flex;
-    flex-direction: column;
+
+.news:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    background-color: #00e0ff;
+    color: #1e1e2f;
 }
-.news:last-child{
-    display: flex;
-    order: -1;
-    width: 30%;
+
+.section-title {
+    font-size: 1.5rem;
+    color: #00e0ff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
 }
-#breaking h3{
-    font-size: 2rem;
+
+.news-text {
+    font-size: 1rem;
+    color: #c7c7c7;
 }
-a {
-    color: rgb(184, 183, 183);
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #1e1e2f;
+    color: #a1a1a1;
+    font-size: 0.9rem;
 }
